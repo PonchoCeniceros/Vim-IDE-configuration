@@ -1,7 +1,7 @@
 # Vim-IDE-configuration
 A simple configurtation for neovim.
 
-## Structure 🗂
+## Minimal structure 🗂
 
 ### ```.vimrc```
 ``` Vim
