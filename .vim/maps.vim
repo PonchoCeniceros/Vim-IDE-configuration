@@ -30,10 +30,10 @@ nnoremap <Leader>q :q<CR>
 " Plugins
 "
 map <Leader>nt :NERDTreeFind<CR>
-map <Leader>p :Files<CR>
-map <Leader>ag :Ag<CR>
+"""map <Leader>p :Files<CR>
+"""map <Leader>ag :Ag<CR>
 "
 " BUffers
 "
-map <Leader>ob :BUffers<cr>
+"""map <Leader>ob :Buffers<cr>
 nmap <Leader>s <Plug>(easymotion-s2)
