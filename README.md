@@ -37,10 +37,16 @@ You can check or change installed plugins in ```.vim/plugins.vim```, or configur
 
 ## Configuration 🔧
 1. Download this repository in ```~/.config/``` directory.
-2. You need to create a symbolic link of ```.vim``` directory and ```.vimrc``` configuration file:
+2. You need to create a symbolic link of ```.vim``` directory:
 
 ``` Bash
 ln -s ~/.config/Vim-IDE-configuration/.vim ~/.vim
+```
+
+and ```.vimrc``` configuration file:
+``` Bash
 ln -s ~/.config/Vim-IDE-configuration/.vimrc ~/.vimrc
 ```
-3. You should to change the current theme replacing the ```themes/current.vim``` with other ```.vim``` file.
+
+3. You need to install [vim plug](https://github.com/junegunn/vim-plug)
+4. You should to change the current theme replacing the ```themes/current.vim``` with other ```.vim``` file.
