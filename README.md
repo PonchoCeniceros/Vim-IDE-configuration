@@ -4,14 +4,15 @@ A simple configurtation for neovim.
 ## Structure 🗂
 
 ``` Bash
-.
+°
 ├── .vim
 │   ├── current.vim
 │   ├── maps.vim
-│   ├── plugged
+│   ├── themes
 │   ├── plugins.vim
 │   ├── setvim-theme.sh
-│   └── themes
+│   └── (plugged)
+|
 └── .vimrc
 
 ```
@@ -30,7 +31,7 @@ and ```.vimrc``` configuration file:
 ln -s ~/.config/Vim-IDE-configuration/.vimrc ~/.vimrc
 ```
 
-3. You need to install [vim plug](https://github.com/junegunn/vim-plug)
+3. You need to install [vim plug](https://github.com/junegunn/vim-plug).
 
 ## Theme replacing 📜
 You should to change manually the current theme replacing the ```.vim/current.vim``` with other ```.vim``` file into ```.vim/themes``` folder.
