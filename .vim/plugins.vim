@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
 "
 " Syntax
 "
-"""Plug 'sheerum/vim-polyglot'
+Plug 'sheerun/vim-polyglot'
 "
 " Status bar
 "
@@ -32,14 +32,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
 "
-" Tmux
-"
-"""Plug 'benmills/vimux'
-"""Plug 'christoomey/vim-tmux-navigator'
-"
 " Autocomplete
 "
-"""Plug 'silver/ultisnips'
+Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {
       \ 'branch': 'release'
       \}
@@ -83,4 +78,5 @@ Plug 'jacoborus/tender.vim'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'rakr/vim-one'
 Plug 'franbach/miramare'
+Plug 'ajmwagar/vim-deus'
 call plug#end()
