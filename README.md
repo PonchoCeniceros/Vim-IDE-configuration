@@ -4,34 +4,17 @@ A simple configurtation for neovim.
 ## Minimal structure 🗂
 
 ### ```.vimrc```
-``` Vim
-set number
-set mouse=a
-set numberwidth=1
-set clipboard=unnamed
-syntax on
-set showcmd
-set ruler
-set encoding=utf-8
-set showmatch
-set sw=2
-set relativenumber
-"
-" Paths for plugins and maps
-"
-so ~/.vim/plugins.vim
-so ~/.vim/maps.vim
-"
-" Current theme settings
-"
-so ~/.vim/themes/current.vim
-"
-" Searching settings
-"
-set hlsearch   " highlight matches
-set incsearch  " incremental searching
-set ignorecase " searches are case sensitive
-set smartcase  " ... unless they contain at least oen capital letter
+``` Bash
+.
+├── .vim
+│   ├── current.vim
+│   ├── maps.vim
+│   ├── plugged
+│   ├── plugins.vim
+│   ├── setvim-theme.sh
+│   └── themes
+└── .vimrc
+
 ```
 You can check or change installed plugins in ```.vim/plugins.vim```, or configured maps in ```.vim/maps.vim```.
 
@@ -49,4 +32,7 @@ ln -s ~/.config/Vim-IDE-configuration/.vimrc ~/.vimrc
 ```
 
 3. You need to install [vim plug](https://github.com/junegunn/vim-plug)
-4. You should to change the current theme replacing the ```themes/current.vim``` with other ```.vim``` file.
+
+## Theme replacing 📜
+You should to change manually the current theme replacing the ```.vim/current.vim``` with other ```.vim``` file into ```.vim/themes``` folder.
+Instead, you can run the ```~/.vim/setvim-theme.sh``` in your ```.bashrc``` in order to change theme each time terminal is opened.
