@@ -1,4 +1,3 @@
-
 "
 " █████   █████  ███                     █████ ██████████   ██████████
 "░░███   ░░███  ░░░                     ░░███ ░░███░░░░███ ░░███░░░░░█
@@ -11,12 +10,10 @@
 "                                                                     
 "
 " Vim IDE themes configuration (@PonchoCeniceros)
-"
-" Deus Theme
+" Tokyonight Theme
 "
 set termguicolors
-colorscheme deus
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-set background=dark
-"set laststatus=2
+let g:tokyonight_style = 'night'
+let g:tokyonight_style = 'storm'
+let g:tokyonight_enable_italic = 1
+colorscheme tokyonight

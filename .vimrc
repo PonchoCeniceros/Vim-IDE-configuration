@@ -30,7 +30,7 @@ so ~/.vim/maps.vim
 "
 " Current theme settings
 "
-so ~/.vim/themes/current.vim
+so ~/.vim/current.vim
 "
 " Searching settings
 "
