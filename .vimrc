@@ -38,3 +38,5 @@ set hlsearch   " highlight matches
 set incsearch  " incremental searching
 set ignorecase " searches are case sensitive
 set smartcase  " ... unless they contain at least oen capital letter
+
+source ~/.vim/coc.config

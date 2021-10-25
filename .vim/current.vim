@@ -10,5 +10,9 @@
 "                                                                     
 "
 " Vim IDE themes configuration (@PonchoCeniceros)
-" Tokyonight Theme
+" Gruvbox Theme
 "
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
+set laststatus=2
+set noshowmode

@@ -34,7 +34,6 @@ Plug 'tpope/vim-surround'
 "
 " Autocomplete
 "
-Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {
       \ 'branch': 'release'
       \}
@@ -43,12 +42,10 @@ Plug 'neoclide/coc.nvim', {
 "
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/fzf'
-"""Plug 'junegunn/fzf-vim'
 Plug 'easymotion/vim-easymotion'
-"""Plug 'mhinz/vim-singify'
 Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
-
+Plug 'nanozuki/tabby.nvim'
 "
 " Coding tools (optional)
 "
@@ -60,11 +57,6 @@ Plug 'python/black'
 Plug 'heavenshell/vim-pydocstring', {
       \'do': 'make install',
       \'for': 'python' }
-""
-"Git (optional)
-"
-"Plug 'tpope/vim-fugitive'
-"Plug 'tpope/vim-repeat'
 "
 " Themes
 "

@@ -12,6 +12,7 @@
 " Vim IDE maps configuration (@PonchoCeniceros)
 "
 let mapleader=" "
+" nmap <Leader>s <Plug>(easymotion-s2)
 "
 " Split resize
 "
@@ -30,10 +31,8 @@ nnoremap <Leader>q :q<CR>
 " Plugins
 "
 map <Leader>nt :NERDTreeFind<CR>
-"""map <Leader>p :Files<CR>
-"""map <Leader>ag :Ag<CR>
+let NERDTreeMapOpenInTab='\r'
 "
-" BUffers
+" Tabs and buffers
 "
-"""map <Leader>ob :Buffers<cr>
-nmap <Leader>s <Plug>(easymotion-s2)
+nnoremap <Leader>z :tabe .<CR>
