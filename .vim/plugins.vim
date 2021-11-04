@@ -63,12 +63,12 @@ Plug 'heavenshell/vim-pydocstring', {
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'srcery-colors/srcery-vim'
-Plug 'kaicataldo/material.vim', {
-      \'branch': 'main'
-      \}
 Plug 'jacoborus/tender.vim'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'rakr/vim-one'
 Plug 'franbach/miramare'
 Plug 'ajmwagar/vim-deus'
+Plug 'kaicataldo/material.vim', {
+      \'branch': 'main'
+      \}
 call plug#end()
