@@ -71,4 +71,7 @@ Plug 'ajmwagar/vim-deus'
 Plug 'kaicataldo/material.vim', {
       \'branch': 'main'
       \}
+Plug 'projekt0n/github-nvim-theme'
+Plug 'arzg/vim-colors-xcode'
+
 call plug#end()

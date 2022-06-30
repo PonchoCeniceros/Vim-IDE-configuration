@@ -14,10 +14,10 @@
 set number                " Add numbers to each line on the left-hand side.
 set relativenumber        " show relative numbers to each line on the left-hand side.
 syntax on                 " Turn syntax highlighting on.
-set cursorline            " Highlight cursor line underneath the cursor horizontally.
 set mouse=a               " Copying text outside of Vim.
-set shiftwidth=4          " Set shift width to 4 spaces.
-set tabstop=4             " Set tab width to 4 columns.
+set cursorline            " Highlight cursor line underneath the cursor horizontally.
+set shiftwidth=2          " Set shift width to 2 spaces.
+set tabstop=2             " Set tab width to 2 columns.
 set expandtab             " Use space characters instead of tabs.
 set nobackup              " Do not save backup files.
 set scrolloff=10          " Do not let cursor scroll below or above N number of lines when scrolling.
@@ -35,10 +35,12 @@ set wildmenu              " Enable auto completion menu after pressing TAB.
 set wildmode=list:longest " Make wildmenu behave like similar to Bash completion.
 " There are certain files that we would never want to edit with Vim.
 " Wildmenu will ignore files with these extensions.
-set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx,.DS_Store
+set clipboard=unnamed
 
-so ~/.vim/plugins.vim     " Paths for plugins and maps
-so ~/.vim/maps.vim        " 
-so ~/.vim/default.vim     " Current theme settings
-
-source ~/.vim/coc.config  " Conquer of completion configuration
+so ~/.vim/plugins.vim        " Paths for plugins and maps
+so ~/.vim/pluginsConfig.vim  " custon plugin configurations
+so ~/.vim/maps.vim           " 
+so ~/.vim/default.vim      " Current theme settings
+" so ~/.vim/themes/github.vim
+source ~/.vim/coc.config     " Conquer of completion configuration

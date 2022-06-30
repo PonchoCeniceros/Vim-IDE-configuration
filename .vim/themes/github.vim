@@ -10,13 +10,13 @@
 "                                                                     
 "
 " Vim IDE themes configuration (@PonchoCeniceros)
-" Gruvbox Theme
 "
-" colorscheme xcodedarkhc
-" colorscheme xcodelighthc
-" colorscheme xcodedark
+" GitHub Theme
+"
+" Example config in VimScript
+" NOTE: Configuration needs to be set BEFORE loading the color scheme with `colorscheme` command
+let g:github_function_style = "italic"
+let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
-set laststatus=2
-set noshowmode
+" Load the colorscheme
+colorscheme github_dark
